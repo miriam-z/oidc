@@ -3,7 +3,7 @@ import ballerina/jwt;
 import ballerina/regex;
 import ballerina/io;
  
-http:JwtValidatorConfig config = {
+http:JwtValidatorConfig jwtConfig = {
    issuer: "https://api.asgardeo.io/t/fortresscomputingtech/oauth2/token",
    audience: "uO8mCBoYJFHvfVn_aBfORQAiZ7Ya",
    signatureConfig: {
