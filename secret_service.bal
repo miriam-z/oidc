@@ -5,7 +5,7 @@ import ballerina/io;
  
 http:JwtValidatorConfig jwtConfig = {
    issuer: "https://api.asgardeo.io/t/fortresscomputingtech/oauth2/token",
-   audience: "uO8mCBoYJFHvfVn_aBfORQAiZ7Ya",
+   audience: "Sovx6bQIiPxrJ6xRj38Bb9moY8Ya",
    signatureConfig: {
        jwksConfig: {
            url: "https://api.asgardeo.io/t/fortresscomputingtech/oauth2/jwks"
