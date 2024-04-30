@@ -1,4 +1,4 @@
-mport ballerina/http;
+import ballerina/http;
 import ballerina/jwt;
 import ballerina/regex;
 import ballerina/io;
